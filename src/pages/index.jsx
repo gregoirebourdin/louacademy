@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Everything Starts as a Square - Get lost in the world of icon design
+          Lou Academy 3.0 - Deviens Community Manager
         </title>
         <meta
           name="description"
