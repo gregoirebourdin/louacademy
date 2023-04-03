@@ -6,43 +6,30 @@ import {Button} from "@/components/Button";
 
 const tiers = [
   {
-    name: 'Freelancer',
+    name: 'Basic',
     id: 'tier-freelancer',
     href: '#',
-    price:  '144€' ,
-    description: 'The essentials to provide your best work for clients.',
-    features: ['5 products', 'Up to 1,000 subscribers', 'Basic analytics', '48-hour support response time'],
+    price:  '497 €' ,
+    description: 'L\'essentiel pour commencer son activité de Community Manager.',
+    features: ['Accès illimité à la formation', 'Accès aux ressources'],
     mostPopular: false,
   },
   {
-    name: 'Startup',
+    name: 'Premium',
     id: 'tier-startup',
     href: '#',
-    price:  '288€' ,
-    description: 'A plan that scales with your rapidly growing business.',
-    features: [
-      '25 products',
-      'Up to 10,000 subscribers',
-      'Advanced analytics',
-      '24-hour support response time',
-      'Marketing automations',
-    ],
+    price:  '1 497 €' ,
+    description: 'Pour celles et ceux qui veulent se lancer en tant que Community Manager indépendant.',
+    features: ['Accès illimité à la formation',  'Accès aux ressources', 'Coaching collectif de 6 mois', "Accès à la communauté"],
     mostPopular: true,
   },
   {
-    name: 'Enterprise',
+    name: 'Entreprise',
     id: 'tier-enterprise',
     href: '#',
-    price:  '576€' ,
-    description: 'Dedicated support and infrastructure for your company.',
-    features: [
-      'Unlimited products',
-      'Unlimited subscribers',
-      'Advanced analytics',
-      '1-hour, dedicated support response time',
-      'Marketing automations',
-      'Custom reporting tools',
-    ],
+    price:  '2 997 €' ,
+    description: 'Pour les entreprises qui souhaitent former leurs équipes à la gestion de communautés.',
+    features: ['Deux accès illimité à la formation', 'Accès aux ressources', 'Coaching collectif de 6 mois', "Accès à la communauté", "Coaching individuel (3 sessions)"],
     mostPopular: false,
   },
 ]
@@ -67,7 +54,7 @@ export function Pricing() {
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
           Choisissez votre offre
         </p>
-        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">"La Formation Lou Academy" est disponible en trois packages différents afin que vous puissiez choisir celui qui vous convient le mieux.</p>
+        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">La formation Lou Academy est disponible en trois packages différents afin que vous puissiez choisir celui qui vous convient le mieux.</p>
       </Container>
       <div className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

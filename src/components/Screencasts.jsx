@@ -18,14 +18,14 @@ const videos = [
   {
     title: "Apprendre Cap Cut",
     description:
-      'Familiarise-toi avec l\'application Cap Cut et crée tes premiers Reels viraux sur Instagram',
+      'Familiarise-toi avec l\'application Cap Cut et crée tes premiers Reels viraux sur Instagram.',
     image: gridsImage,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
     title: "Apprendre gestion d'Agenda",
     description:
-      'Créer un agenda super productif, pour gérer la délivrabilité de tes clients et aussi le développement de ton activité',
+      'Créer un agenda super productif, pour gérer la délivrabilité de tes clients et aussi le développement de ton activité.',
     image: strokesImage,
     runtime: { minutes: 23, seconds: 25 },
   },
