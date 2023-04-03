@@ -2,55 +2,58 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import abstractBackgroundImage from '@/images/resources/abstract-background.png'
-import discordImage from '@/images/resources/discord.svg'
-import figmaImage from '@/images/resources/figma.svg'
-import videoPlayerImage from '@/images/resources/video-player.svg'
+import whatsapp from '@/images/resources/Whatsapp.png'
+import sheet from '@/images/resources/Sheet.png'
+import docs from '@/images/resources/Docs.png'
 
 const resources = [
   {
     title: 'Communauté CM',
     description:
-      'L’accès à une communauté de CM en devenir, tout autant passionné que toi ! Tu pourras échanger avec eux, et partager tes expériences, tes réussites et tes échecs. Tu pourras aussi poser tes questions et recevoir des réponses de la part de la communauté.',
+      'L’accès à une communauté de CM en devenir, tout autant passionné que toi ! Tu pourras échanger avec eux, et partager tes expériences, tes réussites et tes échecs.',
     image: function FigmaImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-          <Image src={figmaImage} alt="" unoptimized />
-        </div>
+          <div className="absolute inset-0 flex items-center justify-center "
+               style={{
+                 backgroundImage:
+                 // Do a green gradient like the class blue-500
+                     'linear-gradient(90deg, #119079 0%, #19B395 100%)',
+               }}>
+            <Image src={whatsapp} alt="" unoptimized />
+          </div>
       )
     },
   },
   {
     title: 'Logiciel de tracking',
     description:
-      'Un logiciel conçu pour suivre les données, actions et statistiques de tes clients en direct, afin de faire des reportings rapides et efficaces.',
+      'Un logiciel conçu pour suivre les données, actions et statistiques de tes clients en direct, afin de faire des reportings rapides et efficaces pour tes clients.',
     image: function VideoPlayerImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={videoPlayerImage}
-            alt=""
-            unoptimized
-          />
-        </div>
+          <div className="absolute inset-0 flex items-center justify-center "
+               style={{
+                 backgroundImage:
+                 // Do a green gradient like the class blue-500
+                     'linear-gradient(90deg, #119079 0%, #19B395 100%)',
+               }}>
+            <Image src={sheet} alt="" unoptimized />
+          </div>
       )
     },
   },
   {
     title: 'Documents à l’appui',
     description:
-      "Sous chaque vidéo de la formation tu trouveras une trace écrite, et ou des exercices que tu pourras remplir et garder avec toi tout au long de l’accompagnement. Des documents sources qui vont t’apprendre à enfin vendre tes prestations, grâce à un script de vente de qualité créé pour les CM.",
+      "Support PDF des cours, des exercices et surtout des documents qui vont t’apprendre à enfin vendre tes prestations, grâce à un script de vente de qualité créé pour les CM.",
     image: function DiscordImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center "
+             style={{
+               backgroundImage:
+               // Do a green gradient like the class blue-500
+                   'linear-gradient(90deg, #119079 0%, #19B395 100%)',
+             }}>
+          <Image src={docs} alt="" unoptimized />
         </div>
       )
     },
@@ -66,11 +69,11 @@ export function Resources() {
     >
       <Container>
         <SectionHeading number="3" id="resources-title">
-          Outils & Ressources
+          Outils
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">Des outils et des ressources fait par les CM pour les CM.</p>
+        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">Des outils sur-mesure pour les CM.</p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Dans cet accompagnement, tu trouveras aussi tout les documents nécéssaires pour devenir excellent.e dans le domaine du Community Management et progresser encore plus vite.
+          Dans cet accompagnement, tu trouveras aussi tout les outils/documents nécéssaires pour devenir excellent.e dans le domaine du Community Management et progresser encore plus vite.
         </p>
       </Container>
       <Container size="lg" className="mt-16">

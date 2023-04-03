@@ -1,96 +1,59 @@
-import clsx from 'clsx'
-
-import { Button } from '@/components/Button'
 import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
-import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
+import {useState} from "react";
+import {Button} from "@/components/Button";
 
-function Plan({ name, description, price, features, href, featured }) {
-  return (
-    <div
-      className={clsx(
-        'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 lg:px-12',
-        featured && 'bg-blue-600 sm:shadow-lg'
-      )}
-    >
-      {featured && (
-        <div className="absolute inset-0 text-white/10 [mask-image:linear-gradient(white,transparent)]">
-          <GridPattern x="50%" y="50%" />
-        </div>
-      )}
-      <div className="relative flex flex-col">
-        <h3
-          className={clsx(
-            'mt-7 text-lg font-semibold tracking-tight',
-            featured ? 'text-white' : 'text-slate-900'
-          )}
-        >
-          {name}
-        </h3>
-        <p
-          className={clsx(
-            'mt-2 text-lg tracking-tight',
-            featured ? 'text-white' : 'text-slate-600'
-          )}
-        >
-          {description}
-        </p>
-        <p className="order-first flex font-display font-bold">
-          <span
-            className={clsx(
-              'text-[1.75rem] leading-tight',
-              featured ? 'text-blue-200' : 'text-slate-500'
-            )}
-          >
-            $
-          </span>
-          <span
-            className={clsx(
-              'ml-1 mt-1 text-7xl tracking-tight',
-              featured ? 'text-white' : 'text-slate-900'
-            )}
-          >
-            {price}
-          </span>
-        </p>
-        <div className="order-last mt-8">
-          <ul
-            role="list"
-            className={clsx(
-              '-my-2 divide-y text-base tracking-tight',
-              featured
-                ? 'divide-white/10 text-white'
-                : 'divide-slate-200 text-slate-900'
-            )}
-          >
-            {features.map((feature) => (
-              <li key={feature} className="flex py-2">
-                <CheckIcon
-                  className={clsx(
-                    'h-8 w-8 flex-none',
-                    featured ? 'fill-white' : 'fill-slate-600'
-                  )}
-                />
-                <span className="ml-4">{feature}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <Button
-          href={href}
-          color={featured ? 'white' : 'slate'}
-          className="mt-8"
-          aria-label={`Get started with the ${name} plan for $${price}`}
-        >
-          Get started
-        </Button>
-      </div>
-    </div>
-  )
+const tiers = [
+  {
+    name: 'Freelancer',
+    id: 'tier-freelancer',
+    href: '#',
+    price:  '$144' ,
+    description: 'The essentials to provide your best work for clients.',
+    features: ['5 products', 'Up to 1,000 subscribers', 'Basic analytics', '48-hour support response time'],
+    mostPopular: false,
+  },
+  {
+    name: 'Startup',
+    id: 'tier-startup',
+    href: '#',
+    price:  '$288' ,
+    description: 'A plan that scales with your rapidly growing business.',
+    features: [
+      '25 products',
+      'Up to 10,000 subscribers',
+      'Advanced analytics',
+      '24-hour support response time',
+      'Marketing automations',
+    ],
+    mostPopular: true,
+  },
+  {
+    name: 'Enterprise',
+    id: 'tier-enterprise',
+    href: '#',
+    price:  '$576' ,
+    description: 'Dedicated support and infrastructure for your company.',
+    features: [
+      'Unlimited products',
+      'Unlimited subscribers',
+      'Advanced analytics',
+      '1-hour, dedicated support response time',
+      'Marketing automations',
+      'Custom reporting tools',
+    ],
+    mostPopular: false,
+  },
+]
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
 }
 
+
 export function Pricing() {
+
   return (
     <section
       id="pricing"
@@ -106,7 +69,83 @@ export function Pricing() {
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">"La Formation Lou Academy" est disponible en trois packages différents afin que vous puissiez choisir celui qui vous convient le mieux.</p>
       </Container>
-      <div className="mx-auto mt-16 max-w-5xl lg:px-6">
+      <div className="bg-white py-12 sm:py-16">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+
+          <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            {tiers.map((tier) => (
+                <div
+                    key={tier.id}
+                    className={classNames(
+                        tier.mostPopular ? 'ring-2 ring-blue-600' : 'ring-1 ring-gray-200',
+                        'rounded-3xl p-8 xl:p-10'
+                    )}
+                >
+                  <div className="flex items-center font-sans  justify-between gap-x-4">
+                    <h3
+                        id={tier.id}
+                        className={classNames(
+                            tier.mostPopular ? 'text-blue-600' : 'text-gray-900',
+                            'text-lg font-semibold leading-8'
+                        )}
+                    >
+                      {tier.name}
+                    </h3>
+                    {tier.mostPopular ? (
+                        <p className="rounded-full bg-blue-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-blue-600">
+                          Most popular
+                        </p>
+                    ) : null}
+                  </div>
+                  <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
+                  <p className="mt-6 flex items-baseline gap-x-1">
+                    <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price}</span>
+
+                  </p>
+
+                  {/* Create a centered div */}
+                  <div className="flex justify-center mt-8">
+
+
+                  {tier.mostPopular ? (
+                      <Button href={tier.href} color="blue" className={"w-full"}>
+                        Rejoindre l'académie
+                      </Button>) : (
+                      <Button href={tier.href} variant={"outline"} className={"w-full"} color="blue" >
+                        Rejoindre l'académie
+                      </Button>
+
+                  )
+                  }
+                    </div>
+{/*
+                  <a
+                      href={tier.href}
+                      aria-describedby={tier.id}
+                      className={classNames(
+                          tier.mostPopular
+                              ? 'bg-blue-600 text-white shadow-sm hover:bg-blue-500'
+                              : 'text-blue-600 ring-1 ring-inset ring-blue-200 hover:ring-blue-300',
+                          'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
+                      )}
+                  >
+                    Buy plan
+                  </a>
+*/}
+                  <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600 xl:mt-10">
+                    {tier.features.map((feature) => (
+                        <li key={feature} className="flex gap-x-3">
+                          <CheckIcon className="h-6 w-5 flex-none text-blue-600" aria-hidden="true" />
+                          {feature}
+                        </li>
+                    ))}
+                  </ul>
+                </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      {/*<div className="mx-auto mt-16 max-w-5xl lg:px-6">
         <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
             name="Essential"
@@ -134,7 +173,7 @@ export function Pricing() {
             ]}
           />
         </div>
-      </div>
+      </div>*/}
     </section>
   )
 }
