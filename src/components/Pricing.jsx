@@ -65,7 +65,7 @@ export function Pricing() {
           Offres
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-          Choisissez votre forfait
+          Choisissez votre offre
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">"La Formation Lou Academy" est disponible en trois packages différents afin que vous puissiez choisir celui qui vous convient le mieux.</p>
       </Container>
@@ -97,7 +97,7 @@ export function Pricing() {
                         </p>
                     ) : null}
                   </div>
-                  <p className="mt-4 text-sm leading-6 text-slate-600">{tier.description}</p>
+                  <p className="mt-4 text-sm text-slate-600">{tier.description}</p>
                   <p className="mt-6 flex items-baseline gap-x-1">
                     <span className="text-4xl font-bold tracking-tight text-slate-900">{tier.price}</span>
 

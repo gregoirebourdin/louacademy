@@ -15,7 +15,7 @@ const sections = [
   },
   { id: 'screencasts', title: 'Screencasts' },
   { id: 'resources', title: 'Outils' },
-  { id: 'pricing', title: 'Pricing' },
+  { id: 'pricing', title: 'Offres' },
   { id: 'author', title: 'Autrice' },
 ]
 

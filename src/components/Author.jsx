@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
-import authorImage from '@/images/avatars/author.png'
+import authorImage from '@/images/avatars/Autrice.png'
 
 function TwitterIcon(props) {
   return (
@@ -47,7 +47,7 @@ export function Author() {
               Autrice
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Leslie Bussat –</span> Salut, je suis la Fondatrice de La Lou Academy.
+              <span className="block text-blue-600">Leslie Bussat –</span> Fondatrice de la <br /> Lou Academy.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">Je trouve mon épanouissement aux côtés de ceux et celles qui ont décidé de booster leur confiance en soi, en se lancant dans la grande aventure du Community Management. J'ai travaillé avec des dizaines d’entrepreneurs générant déjà 7 chiffres à l’année, afin de développer leurs réseaux sociaux et leurs stratégies. Le hasard n’a pas eu sa place dans ma réussite.
 
