@@ -9,9 +9,9 @@ import videoPlayerImage from '@/images/resources/video-player.svg'
 
 const resources = [
   {
-    title: 'Figma icon templates',
+    title: 'Communauté CM',
     description:
-      'Pefectly structured templates for quickly designing new icons at dozens of common sizes.',
+      'L’accès à une communauté de CM en devenir, tout autant passionné que toi ! Tu pourras échanger avec eux, et partager tes expériences, tes réussites et tes échecs. Tu pourras aussi poser tes questions et recevoir des réponses de la part de la communauté.',
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
@@ -21,9 +21,9 @@ const resources = [
     },
   },
   {
-    title: 'Weekly icon teardowns',
+    title: 'Logiciel de tracking',
     description:
-      'Weekly videos where we dissect and recreate beautiful icons we find on the web.',
+      'Un logiciel conçu pour suivre les données, actions et statistiques de tes clients en direct, afin de faire des reportings rapides et efficaces.',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -44,9 +44,9 @@ const resources = [
     },
   },
   {
-    title: 'Community of icon designers',
+    title: 'Documents à l’appui',
     description:
-      "A private Discord server where you can get help and give feedback on each others' work.",
+      "Sous chaque vidéo de la formation tu trouveras une trace écrite, et ou des exercices que tu pourras remplir et garder avec toi tout au long de l’accompagnement. Des documents sources qui vont t’apprendre à enfin vendre tes prestations, grâce à un script de vente de qualité créé pour les CM.",
     image: function DiscordImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
@@ -66,16 +66,11 @@ export function Resources() {
     >
       <Container>
         <SectionHeading number="3" id="resources-title">
-          Resources
+          Outils & Ressources
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Tools and resources you can use to get started even faster and
-          progress even further.
-        </p>
+        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">Des outils et des ressources fait par les CM pour les CM.</p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Design assets, icon teardowns, and a community of fellow icon
-          designers where you can ask questions, get feedback, and accelerate
-          your learning.
+          Dans cet accompagnement, tu trouveras aussi tout les documents nécéssaires pour devenir excellent.e dans le domaine du Community Management et progresser encore plus vite.
         </p>
       </Container>
       <Container size="lg" className="mt-16">

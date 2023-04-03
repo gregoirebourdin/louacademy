@@ -9,30 +9,30 @@ import strokesImage from '@/images/screencasts/strokes.svg'
 
 const videos = [
   {
-    title: 'Getting started with Figma',
+    title: "Cours sur Business Manager",
     description:
-      'Get familiar with the Figma UI, the different tools it offers, and the most important features.',
+      'Familiarise-toi avec l\'interface Business Manager, les différents outils qu\'elle propose et les fonctionnalités les plus importantes pour gérer les réseaux sociaux de tes clients.',
     image: setupImage,
     runtime: { minutes: 16, seconds: 54 },
   },
   {
-    title: 'Setting up your artboard',
+    title: "Cours sur Cap Cut",
     description:
-      'Learn how to create a new artboard and configure your grid and rulers for designing icons.',
+      'Familiarise-toi avec l\'application Cap Cut et crée tes premiers Reels viraux sur Instagram',
     image: gridsImage,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
-    title: 'Designing your first icon',
+    title: "Cours sur Agenda",
     description:
-      'Using basic shapes and boolean operations, learn how to design your own notification icon from scratch.',
+      'Créer un agenda super productif, pour gérer la délivrabilité de tes clients et aussi le développement de ton activité',
     image: strokesImage,
     runtime: { minutes: 23, seconds: 25 },
   },
   {
-    title: 'Advanced design techniques',
+    title: 'Cours sur logiciel de tracking',
     description:
-      'Learn the techniques you need to know to adapt your original icon to a modern duotone style.',
+      'Un outil conçu pour changer la relation avec tes clients, et améliorer vos performances tout en gérant vos actions en temps réels.',
     image: duotoneImage,
     runtime: { minutes: 28, seconds: 44 },
   },
@@ -66,13 +66,10 @@ export function Screencasts() {
           Screencasts
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Over an hour of high quality, step-by-step video content to sharpen
-          your icon design workflow.
+          Vidéos étape par étape de haute qualité pour gagner en compétences et en productivité.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Learn how to design your very first icons in a series of screencasts
-          that will teach you everything you need to know to go from beginner to
-          pro in just over an hour.
+          Apprenez à concevoir vos premiers Reels afin qu’ils deviennent viraux dans une série de screencasts qui vous apprendront tout ce que vous devez savoir pour passer d’un simple CM débutant à un professionnel du secteur de la communication.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
@@ -104,7 +101,7 @@ export function Screencasts() {
                   </time>
                 </div>
               </div>
-              <h3 className="mt-8 text-base font-medium tracking-tight text-slate-900 before:mb-2 before:block before:font-mono before:text-sm before:text-slate-500 before:content-[counter(video,decimal-leading-zero)]">
+              <h3 className="mt-8 text-base font-medium tracking-tight text-slate-900 before:mb-2 before:block before:font-sans before:text-sm before:text-slate-500 ">
                 {video.title}
               </h3>
               <p className="mt-2 text-sm text-slate-600">{video.description}</p>

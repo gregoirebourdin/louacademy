@@ -47,18 +47,20 @@ export function Author() {
               Autrice
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Leslie Bussat –</span> Hey
-              there, I’m the author behind ‘Everything Starts as a Square’.
+              <span className="block text-blue-600">Leslie Bussat –</span> Salut, je suis la Fondatrice de La Lou Academy.
             </p>
-            <p className="mt-4 text-lg tracking-tight text-slate-700">
-              I’ve been designing icons professionally for over a decade and
-              have worked with dozens of the biggest brands to create custom
-              sets for their products. I’m an accomplished conference speaker,
-              and have been teaching icon design workshops every month for the
-              last three years. I’ve worked with designers of all skill levels
-              and honed my way of teaching to really click for anyone who has
-              the itch to start designing their own icons.
-            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">Je trouve mon épanouissement aux côtés de ceux et celles qui ont décidé de booster leur confiance en soi, en se lancant dans la grande aventure du Community Management. J'ai travaillé avec des dizaines d’entrepreneurs générant déjà 7 chiffres à l’année, afin de développer leurs réseaux sociaux et leurs stratégies. Le hasard n’a pas eu sa place dans ma réussite.
+
+              <p className="mt-4">
+              J’ai accumulé un job de serveuse pendant 6 mois au lancement de mon activité de CM, j’investis dans un premier accompagnement et je mets toute mon épargne dedans. Je suis la plus nulle en vente et pourtant je continue, je teste et je recommence sans relâche. Mon objectif est de rentrer dans la précieuse sphère des grands entrepreneurs du marché. J’apprends à vendre et à me vendre. La machine est lancée. Je passe de 1200€ de à 5000€ de CA mensuel, en quelques mois et réalise mon grand projet de créer une Académie de CM.
+              </p>
+                <p className="mt-4">
+                Aujourd’hui, je suis une cheffe d’entreprise accomplie et j'enseigne mon savoir-faire et mon savoir être depuis 2 ans . J'ai travaillé avec des entrepreneurs de tous horizons et j'ai amélioré mes compétences tout en apprenant à vendre des prestations à la hauteur de mon travail.
+              </p>
+              <p className="mt-4">
+              Alors j’ai décidé de tout regroupé dans un accompagnement 3.0, pour donner la chance à tous de Devenir des CM accomplis et heureux.
+              </p>
+              </p>
             <p className="mt-8">
               <Link
                 href="#"

@@ -137,12 +137,10 @@ export function Testimonials() {
     <section className="py-8 sm:py-10 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Some kind words from early customers...
+          Quelques mots gentils des premiers clients ...
         </h2>
-        <p className="mt-4 text-lg tracking-tight text-slate-600">
-          I worked with a small group of early access customers to make sure all
-          of the content in the book was exactly what they needed. Hears what
-          they had to say about the finished product.
+        <p className="mt-4 text-lg tracking-tight text-slate-600">Ces entrepreneurs m’ont confié le développement et la mise en place de stratégies de communication visant à développer leur image de marque, leur visibilité et leur communauté.
+          Tu peux maintenant entendre ce qu’ils ont à dire sur mes compétences de CM.
         </p>
       </Container>
       <Expandable>
@@ -187,7 +185,7 @@ export function Testimonials() {
                 </li>
               ))}
             </ul>
-            <Expandable.Button>Read more testimonials</Expandable.Button>
+            <Expandable.Button>Lire plus</Expandable.Button>
           </>
         )}
       </Expandable>

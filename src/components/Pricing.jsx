@@ -99,15 +99,12 @@ export function Pricing() {
     >
       <Container>
         <SectionHeading number="4" id="pricing-title">
-          Pricing
+          Offres
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-          Pick your package
+          Choisissez votre forfait
         </p>
-        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-          “Everything Starts as a Square” is available in two different packages
-          so you can pick the one that’s right for you.
-        </p>
+        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">"La Formation Lou Academy" est disponible en trois packages différents afin que vous puissiez choisir celui qui vous convient le mieux.</p>
       </Container>
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
         <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">

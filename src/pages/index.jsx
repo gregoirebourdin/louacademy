@@ -34,28 +34,26 @@ export default function Home() {
       <Testimonial
         id="testimonial-from-tommy-stroman"
         author={{
-          name: 'Tommy Stroman',
-          role: 'Front-end developer',
+          name: 'Thomas',
+          role: 'CM Indépendant depuis 8 mois',
           image: avatarImage1,
         }}
       >
         <p>
-          “I didn’t know a thing about icon design until I read this book. Now I
-          can create any icon I need in no time. Great resource!”
+            « Je ne connaissais pas le métier de CM. Maintenant, j’ai acquis les compétences nécessaires, appris à vendre et estimer mes prestations à ma juste valeur ! Confiance et transparence, je ne regrette vraiment pas »
         </p>
       </Testimonial>
       <Screencasts />
       <Testimonial
         id="testimonial-from-gerardo-stark"
         author={{
-          name: 'Gerardo Stark',
-          role: 'Creator of Pandemicons',
+          name: 'Lolita',
+          role: 'CM indépendante depuis 6 mois',
           image: avatarImage2,
         }}
       >
         <p>
-          “I’ve tried to create my own icons in the past but quickly got
-          frustrated and gave up. Now I sell my own custom icon sets online.”
+            "Choisir la formation Lou Academy 3.0 pour devenir Community Manager a été la meilleure décision. Son accompagnement personnalisé de 6 mois m'a aidé à atteindre mon objectif de gagner 5000€/mois. Professionnelle, passionnée et humaine, je recommande vivement sa formation."
         </p>
       </Testimonial>
       <Resources />

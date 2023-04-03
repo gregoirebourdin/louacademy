@@ -3,28 +3,47 @@ import { Expandable } from '@/components/Expandable'
 import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
-  'Getting started': {
-    'Getting started': 1,
-    'Intro to Figma': 15,
-    'Setting up your first artboard': 20,
+  'Introduction': {
+    'Bienvenue': "02:37",
+    'Mon parcours, mon évolution': "04:06",
+    'L’élément déclencheur': "02:08",
+    'Les bases du métier': "04:47",
+    'Certitude d’engagement': "01:16",
   },
-  Fundamentals: {
-    'Strokes and fills': 21,
-    'End points': 22,
-    'Bezier curves': 26,
-    'Designing on a grid': 31,
-    'Vector shapes': 45,
+  "Module 1 : Augmenter ses compétences de CM": {
+    'Les compétences informatiques': "09:11",
+    'La prise en main': "06:59",
+    'La prise en main (suite)': "11:08",
+    'Le questionnaire idéal': "04:59",
+    'Créer tes premiers reels viraux (Introduction)': "05:45",
+    'Créer tes premiers reels viraux (Partie 1)': "08:14",
+    'Créer tes premiers reels viraux (Partie 2)': "10:59",
+    'Photographies et retouches Introduction': "02:49",
+    'Photographies et retouches (suite)': "06:11",
+    'Un audit bien réalisé': "16:11",
+    'Instagram et ses chiffres': "10:09",
+    'Le Copywriting': "08:55",
   },
-  'Boolean operations': {
-    'Combining shapes': 50,
-    'Subtracting shapes': 57,
-    'Intersecting shapes': 66,
-    Flattening: 78,
+  'Module 2 : Trouver tes premiers clients long terme': {
+    'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin': "02:44",
+    'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin (Partie 1)': "20:05",
+    'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin (Partie 2)': "20:19",
+    'Des rendez-vous physiques qui convertissent': "14:39",
+    'Établir des vrais besoins et des objectifs': "08:35",
+    'Etablir un contrat de collaboration juste': "09:44",
+    'Le script de vente pour les CM': "26:27",
+
   },
-  'Optimizing for production': {
-    'Preparing for SVG': 82,
-    'Configuring your export settings': 88,
-    'Minifying and removing metadata': 95,
+  'Module 3 : Créer une organisation stratégique': {
+    'Créer un agenda productif pour devenir excellent.e (Partie 1)': "04:59",
+    'Créer un agenda productif pour devenir excellent.e (Partie 2)': "04:59",
+    'Améliorer son état d’esprit et construire de nouvelles habitudes': "06:58",
+    'La méthode des Sherpas': "09:41",
+
+  },
+
+  'BONUS : Atteins tes premiers 5000€/mensuel': {
+    "🎁 Une surprise c'est une surprise": "Gratuit",
   },
 }
 
@@ -37,16 +56,13 @@ export function TableOfContents() {
     >
       <Container>
         <SectionHeading number="1" id="table-of-contents-title">
-          Table of contents
+          Sommaire
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Get a look at all of the content covered in the book. Everything you
-          need to know is inside.
+          Jette un œil à tout le contenu couvert dans la formation. Tout ce que tu dois savoir est à l’intérieur.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          “Everything Starts as a Square” is comprised of 240 tightly edited,
-          highly visual pages designed to teach you everything you need to know
-          about icon design with no unnecessary filler.
+          La Formation Lou Academy 3.0 est composé de 8 heures de vidéos, du contenu premium, des process exclusivement créé pour les CM, l’intervention d’un photographe international, des screencasts, une communauté de CM et  un accompagnement personnalisé.
         </p>
         <Expandable>
           {({ isExpanded }) => (
@@ -76,7 +92,7 @@ export function TableOfContents() {
                               {title}
                             </span>
                             <span
-                              className="font-mono text-slate-400"
+                              className="font-sans text-slate-400"
                               aria-hidden="true"
                             >
                               {pageNumber}
@@ -87,7 +103,7 @@ export function TableOfContents() {
                     </li>
                   ))}
               </ol>
-              <Expandable.Button>See more</Expandable.Button>
+              <Expandable.Button>Voir plus</Expandable.Button>
             </>
           )}
         </Expandable>
