@@ -9,28 +9,28 @@ import strokesImage from '@/images/screencasts/strokes.svg'
 
 const videos = [
   {
-    title: "Cours sur Business Manager",
+    title: "Apprendre Business Manager",
     description:
       'Familiarise-toi avec l\'interface Business Manager, les différents outils qu\'elle propose et les fonctionnalités les plus importantes pour gérer les réseaux sociaux de tes clients.',
     image: setupImage,
     runtime: { minutes: 16, seconds: 54 },
   },
   {
-    title: "Cours sur Cap Cut",
+    title: "Apprendre Cap Cut",
     description:
       'Familiarise-toi avec l\'application Cap Cut et crée tes premiers Reels viraux sur Instagram',
     image: gridsImage,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
-    title: "Cours sur Agenda",
+    title: "Apprendre gestion d'Agenda",
     description:
       'Créer un agenda super productif, pour gérer la délivrabilité de tes clients et aussi le développement de ton activité',
     image: strokesImage,
     runtime: { minutes: 23, seconds: 25 },
   },
   {
-    title: 'Cours sur logiciel de tracking',
+    title: 'Apprendre logiciel de tracking',
     description:
       'Un outil conçu pour changer la relation avec tes clients, et améliorer vos performances tout en gérant vos actions en temps réels.',
     image: duotoneImage,
