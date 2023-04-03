@@ -9,7 +9,7 @@ const tiers = [
     name: 'Freelancer',
     id: 'tier-freelancer',
     href: '#',
-    price:  '$144' ,
+    price:  '144€' ,
     description: 'The essentials to provide your best work for clients.',
     features: ['5 products', 'Up to 1,000 subscribers', 'Basic analytics', '48-hour support response time'],
     mostPopular: false,
@@ -18,7 +18,7 @@ const tiers = [
     name: 'Startup',
     id: 'tier-startup',
     href: '#',
-    price:  '$288' ,
+    price:  '288€' ,
     description: 'A plan that scales with your rapidly growing business.',
     features: [
       '25 products',
@@ -33,7 +33,7 @@ const tiers = [
     name: 'Enterprise',
     id: 'tier-enterprise',
     href: '#',
-    price:  '$576' ,
+    price:  '576€' ,
     description: 'Dedicated support and infrastructure for your company.',
     features: [
       'Unlimited products',
@@ -77,7 +77,7 @@ export function Pricing() {
                 <div
                     key={tier.id}
                     className={classNames(
-                        tier.mostPopular ? 'ring-2 ring-blue-600' : 'ring-1 ring-gray-200',
+                        tier.mostPopular ? 'ring-2 ring-blue-600' : 'ring-1 ring-slate-200',
                         'rounded-3xl p-8 xl:p-10'
                     )}
                 >
@@ -85,21 +85,21 @@ export function Pricing() {
                     <h3
                         id={tier.id}
                         className={classNames(
-                            tier.mostPopular ? 'text-blue-600' : 'text-gray-900',
-                            'text-lg font-semibold leading-8'
+                            tier.mostPopular ? 'text-blue-600' : 'text-slate-900',
+                            ' font-display text-4xl font-bold tracking-tight '
                         )}
                     >
                       {tier.name}
                     </h3>
                     {tier.mostPopular ? (
                         <p className="rounded-full bg-blue-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-blue-600">
-                          Most popular
+                          Plus populaire
                         </p>
                     ) : null}
                   </div>
-                  <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
+                  <p className="mt-4 text-sm leading-6 text-slate-600">{tier.description}</p>
                   <p className="mt-6 flex items-baseline gap-x-1">
-                    <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price}</span>
+                    <span className="text-4xl font-bold tracking-tight text-slate-900">{tier.price}</span>
 
                   </p>
 
@@ -132,7 +132,7 @@ export function Pricing() {
                     Buy plan
                   </a>
 */}
-                  <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600 xl:mt-10">
+                  <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-slate-600 xl:mt-10">
                     {tier.features.map((feature) => (
                         <li key={feature} className="flex gap-x-3">
                           <CheckIcon className="h-6 w-5 flex-none text-blue-600" aria-hidden="true" />
