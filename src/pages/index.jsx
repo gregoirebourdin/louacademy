@@ -11,6 +11,7 @@ import { Resources } from '@/components/Resources'
 import { Screencasts } from '@/components/Screencasts'
 import { TableOfContents } from '@/components/TableOfContents'
 import { Testimonial } from '@/components/Testimonial'
+import Features  from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
 import avatarImage1 from '@/images/avatars/avatar-1.png'
 import avatarImage2 from '@/images/avatars/avatarwoman.jpg'
@@ -29,6 +30,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Introduction />
+        <Features />
       <NavBar />
       <TableOfContents />
       <Testimonial
@@ -61,6 +63,7 @@ export default function Home() {
       <FreeChapters />
       <Pricing />
       <Testimonials />
+
       <Author />
       <Footer />
     </>

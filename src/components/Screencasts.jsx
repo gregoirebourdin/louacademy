@@ -2,38 +2,38 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import duotoneImage from '@/images/screencasts/duotone.svg'
-import gridsImage from '@/images/screencasts/grids.svg'
-import setupImage from '@/images/screencasts/setup.svg'
-import strokesImage from '@/images/screencasts/strokes.svg'
+import marketing from '@/images/screencasts/marketing.png'
+import capcut from '@/images/screencasts/capcut.png'
+import manager from '@/images/screencasts/manager.png'
+import agenda from '@/images/screencasts/agenda.png'
 
 const videos = [
   {
     title: "Apprendre Business Manager",
     description:
       'Familiarise-toi avec l\'interface Business Manager, les différents outils qu\'elle propose et les fonctionnalités les plus importantes pour gérer les réseaux sociaux de tes clients.',
-    image: setupImage,
+    image: manager,
     runtime: { minutes: 16, seconds: 54 },
   },
   {
     title: "Apprendre Cap Cut",
     description:
       'Familiarise-toi avec l\'application Cap Cut et crée tes premiers Reels viraux sur Instagram.',
-    image: gridsImage,
+    image: capcut,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
     title: "Apprendre gestion d'Agenda",
     description:
       'Créer un agenda super productif, pour gérer la délivrabilité de tes clients et aussi le développement de ton activité.',
-    image: strokesImage,
+    image: agenda,
     runtime: { minutes: 23, seconds: 25 },
   },
   {
     title: 'Apprendre logiciel de tracking',
     description:
       'Un outil conçu pour changer la relation avec tes clients, et améliorer vos performances tout en gérant vos actions en temps réels.',
-    image: duotoneImage,
+    image: marketing,
     runtime: { minutes: 28, seconds: 44 },
   },
 ]
