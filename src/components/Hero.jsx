@@ -56,7 +56,7 @@ export function Hero() {
               <Button href={"cal"} color="blue">
                 Rejoindre l'académie
               </Button>
-              <Button href="#pricing" variant="outline" color="blue">
+              <Button href="#table-of-contents" variant="outline" color="blue">
                 Voir le contenu
               </Button>
             </div>

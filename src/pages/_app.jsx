@@ -3,6 +3,7 @@ import '@/styles/tailwind.css'
 import Cal from "@/components/Cal";
 import {useEffect, useState} from "react";
 
+
 export default function App({ Component, pageProps }) {
     const [showBanner, setShowBanner] = useState(false);
 
@@ -38,6 +39,7 @@ export default function App({ Component, pageProps }) {
       `}</style>
         {showBanner && (
             <div
+                className={"z-40"}
                 style={{
                     animation: "slide-up 0.5s ease-out",
                 }}>

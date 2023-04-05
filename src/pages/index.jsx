@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { Author } from '@/components/Author'
+
 import { Footer } from '@/components/Footer'
 import { FreeChapters } from '@/components/FreeChapters'
 import { Hero } from '@/components/Hero'
@@ -15,6 +15,8 @@ import Features  from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
 import avatarImage1 from '@/images/avatars/avatar-1.png'
 import avatarImage2 from '@/images/avatars/avatarwoman.jpg'
+import Author from "@/components/Author";
+
 
 export default function Home() {
   return (
@@ -63,9 +65,9 @@ export default function Home() {
       <FreeChapters />
       <Pricing />
       <Testimonials />
-
-      <Author />
+        <Author />
       <Footer />
+
     </>
   )
 }
