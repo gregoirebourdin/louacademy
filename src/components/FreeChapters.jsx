@@ -23,6 +23,7 @@ export function FreeChapters() {
               L'agenda d'une CM accomplie est souvent bien rempli. Mais pour toi il y aura toujours une place ! Réserve ton appel dès maintenant, et on parlera de tes projets.
             </p>
             <Button
+                href="cal"
                 type="submit"
                 color="white"
                 className="mt-12 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none "
