@@ -1,6 +1,5 @@
 import Head from 'next/head'
 
-
 import { Footer } from '@/components/Footer'
 import { FreeChapters } from '@/components/FreeChapters'
 import { Hero } from '@/components/Hero'
@@ -17,7 +16,6 @@ import avatarImage1 from '@/images/avatars/avatar-1.png'
 import avatarImage2 from '@/images/avatars/avatarwoman.jpg'
 import Author from "@/components/Author";
 
-
 export default function Home() {
   return (
     <>
@@ -27,7 +25,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="A book and video course that teaches you how to design your own icons from scratch. "
+          content="Un accompagnement innovant qui permet d’augmenter tes compétences pour devenir un.e CM excellent.e, trouver tes premiers clients sur le long-terme, et construire une organisation stratégique efficiente !"
         />
       </Head>
       <Hero />
@@ -67,7 +65,6 @@ export default function Home() {
       <Testimonials />
         <Author />
       <Footer />
-
     </>
   )
 }

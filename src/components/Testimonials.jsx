@@ -17,7 +17,7 @@ const testimonials = [
   [
     {
       content:
-        'Nous sommes des investisseurs, et nous avions besoin de quelqu’un de confiance pour déléguer toute la partie communication (Instagram et Youtube). Le défi a été relevé avec brio. Elle fait partie de nos projets, et nous souhaitons avoir son avis sur les futures stratégies à adopter. Ce n’est pas une simple CM, c’est la CM qu’il faut à votre activité entrepreneuriale.',
+        'Nous sommes des investisseurs, et nous avions besoin de quelqu’un de confiance pour déléguer toute la partie communication (Instagram et Youtube). Le défi a été relevé avec brio. Elle fait partie de nos projets, et nous souhaitons avoir son avis sur les futures stratégies à adopter. Ce n’est pas une simple CM, c’est la CM qu’il faut à votre activité entrepreneuriale',
       author: {
         name: 'Antonio Littel',
         role: 'Frontend Developer',
@@ -46,7 +46,7 @@ const testimonials = [
   [
     {
       content:
-        'Leslie est une gestionnaire de communauté très patiente et compréhensive avec les membres de notre communauté. Elle a su créer une présence en ligne forte et cohérente pour notre activité d’entrepreneurs.',
+        'J’avais besoin de contenu UGC, pour développer le compte Tiktok d’une plateforme de réservations. J’ai naturellement fait appel à Leslie. Je l’avais rencontré quelques mois plus tôt, durant un dîner d’entrepreneur. Elle avait su me convaincre rapidement lors d’un rapide échange. Son professionnalisme et son efficacité dans la création de contenu ont fait de suite la différence. ',
       author: {
         name: 'Cameron Considine',
         role: 'Entrepreneur',
@@ -55,7 +55,7 @@ const testimonials = [
     },
     {
       content:
-        'Sa connaissance approfondie des médias sociaux et sa capacité à créer des campagnes de marketing efficaces pour engager notre communauté a été un vrai plus dans le développement de notre pôle communication.',
+        'Sa connaissance approfondie des médias sociaux et sa capacité à créer des campagnes de marketing efficaces pour engager notre communauté a été un vrai plus dans le développement de notre pôle communication',
       author: {
         name: 'Regina Wisoky',
         role: 'Design Student',
@@ -64,7 +64,7 @@ const testimonials = [
     },
     {
       content:
-        'Leslie est une rockstar du marketing des médias sociaux ! Elle possède une grande expérience en gestion de communauté et sait comment créer une communauté dynamique et passionnée autour de notre entreprise.',
+        'Leslie est une rockstar du marketing des médias sociaux ! Elle possède une grande expérience en gestion de communauté et sait comment créer une communauté dynamique et passionnée autour de notre entreprise !',
       author: {
         name: 'Vernon Cummerata',
         role: 'UI Engineer',

@@ -1,40 +1,43 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
-export default function Features() {
-    const features = [
-        {
-            name: 'Push to deploy.',
-            description:
-                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-            icon: CloudArrowUpIcon,
-        },
-        {
-            name: 'SSL certificates.',
-            description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-            icon: LockClosedIcon,
-        },
-        {
-            name: 'Database backups.',
-            description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-            icon: ServerIcon,
-        },
-    ]
 
+const features = [
+    {
+        name: 'Les compétences',
+        description:
+            'servent à qualifier son audience, et t’imposer parmi les meilleur.es CM sur le marché.',
+        icon: CloudArrowUpIcon,
+    },
+    {
+        name: 'La vente',
+        description: "c’est la compétence qui manque à la plupart des CM aujourd’hui. Et il est crucial de leur transmettre ce domaine d'expertise.\n",
+        icon: LockClosedIcon,
+    },
+    {
+        name: 'Créer une organisation efficiente. ',
+        description: 'Prépare toi à gérer plusieurs dossiers, car ton activité va prendre un tournant ...',
+        icon: ServerIcon,
+    },
+]
+
+export default function Features() {
     return (
         <div className="overflow-hidden bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-                    <div className="lg:pr-8 lg:pt-4">
-                        <div className="lg:max-w-lg">
+            <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+                    <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4">
+                        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
 
-                            <p className="mt-2 font-display text-4xl font-bold tracking-tight text-slate-900">A better workflow</p>
-                            <p className="mt-6 text-lg tracking-tight text-slate-700">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                                iste dolor cupiditate blanditiis ratione.
-                            </p>
-                            <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                            <p className="mt-2 font-display text-4xl font-bold tracking-tight text-slate-900">Une académie évolutive, mais pourquoi ?</p>
+                            <p className="mt-6 text-lg leading-8 text-slate-600">
+                                Le point commun de toutes mes réussites et de mon ascension c’est tout simplement : mon réseau.
+
+                                Les rencontres, et les partages sont la conjoncture excellente pour performer, et s’imposer comme expert.e.
+
+                                </p>
+                            <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-slate-600 lg:max-w-none">
                                 {features.map((feature) => (
                                     <div key={feature.name} className="relative pl-9">
-                                        <dt className="inline font-semibold text-gray-900">
+                                        <dt className="inline font-semibold text-slate-900">
                                             <feature.icon className="absolute left-1 top-1 h-5 w-5 text-blue-600" aria-hidden="true" />
                                             {feature.name}
                                         </dt>{' '}
@@ -44,13 +47,25 @@ export default function Features() {
                             </dl>
                         </div>
                     </div>
-                    <img
-                        src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-                        alt="Product screenshot"
-                        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                        width={2432}
-                        height={1442}
-                    />
+                    <div className="sm:px-6 lg:px-0">
+                        <div className="relative isolate overflow-hidden bg-blue-600 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+                            <div
+                                className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-blue-100 opacity-20 ring-1 ring-inset ring-white"
+                                aria-hidden="true"
+                            />
+                            <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+                                <img
+                                    src="https://i.postimg.cc/6qsBdNzd/final.png"
+                                    alt="Product screenshot"
+                                    className=" md:rounded-tl-xl sm:rounded-xl bg-slate-800 ring-1 ring-white/10"
+                                />
+                            </div>
+                            <div
+                                className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"
+                                aria-hidden="true"
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
