@@ -1,21 +1,21 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import {AcademicCapIcon, CalendarIcon, ChartBarIcon} from '@heroicons/react/20/solid'
 
 const features = [
     {
         name: 'Les compétences',
         description:
             'servent à qualifier son audience, et t’imposer parmi les meilleur.es CM sur le marché.',
-        icon: CloudArrowUpIcon,
+        icon: AcademicCapIcon,
     },
     {
         name: 'La vente',
         description: "c’est la compétence qui manque à la plupart des CM aujourd’hui. Et il est crucial de leur transmettre ce domaine d'expertise.\n",
-        icon: LockClosedIcon,
+        icon: ChartBarIcon,
     },
     {
         name: 'Créer une organisation efficiente. ',
         description: 'Prépare toi à gérer plusieurs dossiers, car ton activité va prendre un tournant ...',
-        icon: ServerIcon,
+        icon: CalendarIcon,
     },
 ]
 
@@ -55,8 +55,8 @@ export default function Features() {
                             />
                             <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
                                 <img
-                                    src="https://i.postimg.cc/6qsBdNzd/final.png"
-                                    alt="Product screenshot"
+                                    src="https://i.postimg.cc/Hs9kM27X/background.png"
+                                    alt="Photo by @corbo_illu on Instagram"
                                     className=" md:rounded-tl-xl sm:rounded-xl bg-slate-800 ring-1 ring-white/10"
                                 />
                             </div>
