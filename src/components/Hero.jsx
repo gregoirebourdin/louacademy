@@ -53,7 +53,7 @@ export function Hero() {
             </h1>
             <p className="mt-4 text-3xl text-slate-600">Un accompagnement innovant qui permet d’augmenter tes compétences pour devenir un.e CM excellent.e, trouver tes premiers clients sur le long-terme, et construire une organisation stratégique efficiente !</p>
             <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="blue">
+              <Button href={"cal"} color="blue">
                 Rejoindre l'académie
               </Button>
               <Button href="#pricing" variant="outline" color="blue">
