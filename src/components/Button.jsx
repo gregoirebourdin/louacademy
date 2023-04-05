@@ -44,10 +44,10 @@ export function Button({
     (async function () {
       const cal = await getCalApi();
       cal("ui", {
-        branding: { brandColor: "#19B395" },
+        branding: { brandColor: "#000000" },
         styles: {
-          branding: { brandColor: "#19B395" },
-        }
+          branding: { brandColor: "#000000" },
+        },
       });
     })();
   }, []);
@@ -55,7 +55,7 @@ export function Button({
     if (href && href !== 'cal') {
      return <Link href={href} className={className} {...props} />
     } else if (href === 'cal') {
-       return  <button data-cal-link="rick" className={className} {...props} />
+       return  <button data-cal-link="/lou-academy/30min" className={className} {...props} />
     } else {
       return <button className={className} {...props} />
     }
