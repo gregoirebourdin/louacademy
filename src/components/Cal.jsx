@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { getCalApi } from "@calcom/embed-react";
 
 export default function Cal() {
+
     useEffect(() => {
         (async function () {
             const cal = await getCalApi();
