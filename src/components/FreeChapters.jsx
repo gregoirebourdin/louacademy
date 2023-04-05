@@ -19,36 +19,18 @@ export function FreeChapters() {
             <h2 className="font-display text-5xl font-extrabold tracking-tight text-white sm:w-3/4 sm:text-6xl md:w-2/3 lg:w-auto">
               Si on se rencontrait ?
             </h2>
-            <p className="mt-4 text-lg tracking-tight text-blue-200">
-              Entre ton adresse e-mail et je t’enverrai un créneau horaire afin de faire connaissance et répondre à ta problématique la plus urgente.
+            <p className="mt-4 mb-8 text-lg tracking-tight text-blue-200">
+              L'agenda d'une CM accomplie est souvent bien rempli. Mais pour toi il y aura toujours une place ! Réserve ton appel dès maintenant, et on parlera de tes projets.
             </p>
-          </div>
-          <form className="lg:pl-16">
-            <h3 className="text-base font-medium tracking-tight text-white">
-              Je prends rendez-vous maintenant{' '}
-              <span aria-hidden="true">&rarr;</span>
-            </h3>
-            <div className="mt-4 sm:relative sm:flex sm:items-center sm:py-0.5 sm:pr-2.5">
-              <div className="relative sm:static sm:flex-auto">
-                <input
-                  type="email"
-                  id="email-address"
-                  required
-                  aria-label="Email address"
-                  placeholder="Email address"
-                  className="peer relative z-10 w-full appearance-none bg-transparent px-4 py-2 text-base text-white placeholder:text-white/70 focus:outline-none sm:py-3"
-                />
-                <div className="absolute inset-0 rounded-md border border-white/20 peer-focus:border-blue-300 peer-focus:bg-blue-500 peer-focus:ring-1 peer-focus:ring-blue-300 sm:rounded-xl" />
-              </div>
-              <Button
+            <Button
                 type="submit"
                 color="white"
-                className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none"
-              >
-                J'y vais !
-              </Button>
-            </div>
-          </form>
+                className="mt-12 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none "
+            >
+              Je prend rendez-vous maintenant !
+            </Button>
+          </div>
+
         </Container>
       </div>
     </section>

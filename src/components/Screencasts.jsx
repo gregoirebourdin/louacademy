@@ -69,7 +69,7 @@ export function Screencasts() {
           Vidéos étape par étape de haute qualité pour gagner en compétences et en productivité.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Apprenez à concevoir vos premiers Reels afin qu’ils deviennent viraux dans une série de screencasts qui vous apprendront tout ce que vous devez savoir pour passer d’un simple CM débutant à un professionnel du secteur de la communication.
+          De la conception de vos premiers Reels viraux à la création d'un agenda ultra productif, passer d’un simple CM débutant à un professionnel du secteur de la communication.
         </p>
       </Container>
       <Container size="lg" className="mt-16">

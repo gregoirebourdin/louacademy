@@ -8,7 +8,7 @@ const tiers = [
   {
     name: 'Basic',
     id: 'tier-freelancer',
-    href: '#',
+    href: 'cal',
     price:  '497 €' ,
     description: 'L\'essentiel pour commencer son activité de Community Manager.',
     features: ['Accès illimité à la formation', 'Accès aux ressources'],
@@ -17,19 +17,19 @@ const tiers = [
   {
     name: 'Premium',
     id: 'tier-startup',
-    href: '#',
+    href: 'cal',
     price:  '1 497 €' ,
     description: 'Pour celles et ceux qui veulent se lancer en tant que Community Manager indépendant.',
     features: ['Accès illimité à la formation',  'Accès aux ressources', 'Coaching collectif de 6 mois', "Accès à la communauté"],
     mostPopular: true,
   },
   {
-    name: 'Entreprise',
+    name: 'Privilege',
     id: 'tier-enterprise',
-    href: '#',
+    href: 'cal',
     price:  '2 997 €' ,
     description: 'Pour les entreprises qui souhaitent former leurs équipes à la gestion de communautés.',
-    features: ['Deux accès illimité à la formation', 'Accès aux ressources', 'Coaching collectif de 6 mois', "Accès à la communauté", "Coaching individuel (3 sessions)"],
+    features: ['Deux accès illimités à la formation', 'Accès aux ressources', 'Coaching collectif de 6 mois', "Accès à la communauté", "Coaching individuel (3 sessions)"],
     mostPopular: false,
   },
 ]
@@ -52,9 +52,9 @@ export function Pricing() {
           Offres
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-          Choisissez votre offre
+          Pas besoin de se ruiner pour exceller
         </p>
-        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">La formation Lou Academy est disponible en trois packages différents afin que vous puissiez choisir celui qui vous convient le mieux.</p>
+        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">La formation Lou Academy est disponible en trois packages différents afin que tu puisses choisir celui qui te convient le mieux.</p>
       </Container>
       <div className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

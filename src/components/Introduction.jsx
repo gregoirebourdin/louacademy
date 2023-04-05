@@ -17,11 +17,14 @@ export function Introduction() {
           Un accompagnement basé sur 3 grands piliers de réussite. Les mêmes que j’ai appliqués pour atteindre mes premiers 5000€ de CA mensuel.
         </p>
 
-        <p className="mt-4">
-          Je t'arrête tout de suite, si tu penses qu’une simple connexion internet et un téléphone suffisent pour être un bon CM, alors tu n’as rien à faire ici … Cette Academie est évolutive et n’accepte que les personnes passionnés et déterminés .
-        </p>
+        <p className="mt-4">Si tu penses qu’une simple connexion internet et un téléphone suffisent pour être un.e bon.ne Community Manager, alors il est inutile de lire la suite de cette page.</p>
+        <p className="mt-4">Si il y a bien une chose que j’ai comprise avant d’être indépendante financièrement, c’est qu’il fallait que j’investisse en moi.</p>
           <p className="mt-4">
-          Cette méthode 3.0 comprend&nbsp;:
+            Tout au long de mon expérience, j’ai fait le triste constat que la plupart des CM ne savent pas vendre leurs prestations, et encore moins se valoriser. Pourtant, sur un marché devenu si concurrentiel, il est indispensable de savoir s’imposer comme l’expert.e de ton domaine.
+          </p>
+
+        <p className="mt-4">
+          Alors, pourquoi une formation 3.0 ?
         </p>
 {/*        <p className="mt-4">
           In “Everything Starts as a Square”, you’ll learn the systems experts
@@ -29,10 +32,9 @@ export function Introduction() {
         </p>*/}
         <ul role="list" className="mt-8 space-y-3">
           {[
-            "Accompagnement personnalisé sur 6 mois pour te permettre de trouver tes premiers clients.",
-            "Environ 8 heures de formation vidéo pour comprendre le métier de Community Manager.",
-            'Des screencasts pour te guider pas à pas afin de créer des contenus viraux.',
-            "Un script de vente qui convertit crée pour les CM.",
+            "Augmenter en compétences, pour se démarquer",
+            "Apprendre à vendre, pour conquérir son auditoire",
+            'Créer son organisation efficiente, pour exceller', ,
           ].map((feature) => (
             <li key={feature} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
@@ -54,9 +56,7 @@ export function Introduction() {
             </li>
           ))}
         </ul>*/}
-        <p className="mt-8">
-          Unique et incomparable, cette formation retrace mon parcours, mes réussites, mes échecs mais pas seulement.  Je te délivre tout ce qui m’a permis de devenir une CM accomplie; qui collabore aujourd’hui, avec des entrepreneurs générant 7 chiffres à l’année.
-        </p>
+        <p className="mt-8">Il était important pour moi, de comprendre et rassembler tous les éléments qui ont constitué ma réussite. Unique et incomparable, cette formation est un condensé de compétences et de <br /> savoir-faire pour devenir un.e Community Manager excellent.e.</p>
         <p className="mt-10">
           <Link
             href="#free-chapters"

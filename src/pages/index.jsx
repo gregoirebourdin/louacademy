@@ -40,7 +40,8 @@ export default function Home() {
         }}
       >
         <p>
-            « Je ne connaissais pas le métier de CM. Maintenant, j’ai acquis les compétences nécessaires, appris à vendre et estimer mes prestations à ma juste valeur ! Confiance et transparence, je ne regrette vraiment pas »
+            « Je ne connaissais pas le métier de CM.
+            J’ai acquis les compétences nécessaires, appris à vendre et estimer mes prestations à ma juste valeur ! »
         </p>
       </Testimonial>
       <Screencasts />

@@ -29,7 +29,7 @@ const tableOfContents = {
     'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin (Partie 1)': "20:05",
     'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin (Partie 2)': "20:19",
     'Des rendez-vous physiques qui convertissent': "14:39",
-    'Établir des vrais besoins et des objectifs': "08:35",
+    'Comprendre les vrais besoins et les objectifs du client': "08:35",
     'Etablir un contrat de collaboration juste': "09:44",
     'Le script de vente pour les CM': "26:27",
 
@@ -59,10 +59,10 @@ export function TableOfContents() {
           Sommaire
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Jette un œil à tout le contenu couvert dans la formation. Tout ce que tu dois savoir est à l’intérieur.
+          Jette un œil à tout le contenu de la formation. Tout ce que tu dois savoir est à l’intérieur.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          La Formation Lou Academy 3.0 est composé de 8 heures de vidéos, du contenu premium, des process exclusivement créé pour les CM, l’intervention d’un photographe international, des screencasts, une communauté de CM et  un accompagnement personnalisé.
+          La Formation Lou Academy 3.0 est composé de 8 heures de vidéos, du contenu premium, des process exclusivement créé pour les CM, l’intervention d’un photographe international, des screencasts, l'accès à une communauté privée et un accompagnement personnalisé.
         </p>
         <Expandable>
           {({ isExpanded }) => (

@@ -10,7 +10,8 @@ const resources = [
   {
     title: 'Communauté CM',
     description:
-      'L’accès à une communauté de CM en devenir, tout autant passionné que toi ! Tu pourras échanger avec eux, et partager tes expériences, tes réussites et tes échecs.',
+      'L’accès à une communauté de CM en devenir, tous autant passionnés que toi ! Tu pourras échanger avec eux, ' +
+        'partager tes doutes, tes réussites et tes échecs.',
     image: function FigmaImage() {
       return (
           <div className="absolute inset-0 flex items-center justify-center "
@@ -27,7 +28,7 @@ const resources = [
   {
     title: 'Logiciel de tracking',
     description:
-      'Un logiciel conçu pour suivre les données, actions et statistiques de tes clients en direct, afin de faire des reportings rapides et efficaces pour tes clients.',
+      'Un logiciel conçu pour suivre les données, actions et statistiques de tes clients en direct, afin de faire des reportings rapides et efficaces.',
     image: function VideoPlayerImage() {
       return (
           <div className="absolute inset-0 flex items-center justify-center "

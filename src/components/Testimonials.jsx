@@ -17,7 +17,7 @@ const testimonials = [
   [
     {
       content:
-        'Mira’s teaching style is second to none. Everything was easy to follow every step of the way.',
+        'Nous sommes des investisseurs, et nous avions besoin de quelqu’un de confiance pour déléguer toute la partie communication (Instagram et Youtube). Le défi a été relevé avec brio. Elle fait partie de nos projets, et nous souhaitons avoir son avis sur les futures stratégies à adopter. Ce n’est pas une simple CM, c’est la CM qu’il faut à votre activité entrepreneuriale.',
       author: {
         name: 'Antonio Littel',
         role: 'Frontend Developer',
@@ -26,7 +26,7 @@ const testimonials = [
     },
     {
       content:
-        'Even though I was excited to learn, I was pessimistic that I wouldn’t actually ever get good enough to design my own icons. I was wrong — this book is all I needed.',
+        'Les changements de l\'environnement en ligne sont nombreux, il nous fallait quelqu’un de réactive. C’est une des qualités que nous avons trouvé chez Leslie. Une force pétillante et ingénieuse, à toute épreuve !',
       author: {
         name: 'Lynn Nolan',
         role: 'Growth Marketer',
@@ -35,7 +35,7 @@ const testimonials = [
     },
     {
       content:
-        'I’ve been employed as a professional icon designer for years and still learned tons of new tricks that have made my work even better',
+        'Leslie est une professionnelle de la gestion de communauté très réactive qui sait comment répondre rapidement aux besoins de notre communauté. Elle est également très créative, et pour un salon de coiffure comme le nôtre c’était exactement la bonne personne.',
       author: {
         name: 'Krista Prosacco',
         role: 'Professional Designer',
@@ -46,7 +46,7 @@ const testimonials = [
   [
     {
       content:
-        'I run an ecommerce store selling rare vintage gummy bears and could never find a good gummy bear icon. Now I can design my own in minutes.',
+        'Leslie est une gestionnaire de communauté très patiente et compréhensive avec les membres de notre communauté. Elle a su créer une présence en ligne forte et cohérente pour notre activité d’entrepreneurs.',
       author: {
         name: 'Cameron Considine',
         role: 'Entrepreneur',
@@ -55,7 +55,7 @@ const testimonials = [
     },
     {
       content:
-        'The complete package is worth it for the weekly teardown videos alone. I’ve learned so much watching Mira take apart other icons and recreate them from scratch.',
+        'Sa connaissance approfondie des médias sociaux et sa capacité à créer des campagnes de marketing efficaces pour engager notre communauté a été un vrai plus dans le développement de notre pôle communication.',
       author: {
         name: 'Regina Wisoky',
         role: 'Design Student',
@@ -64,7 +64,7 @@ const testimonials = [
     },
     {
       content:
-        'I didn’t expect to find a lot of value in the community but now I’m in there for at least an hour every day picking up tips from other designers.',
+        'Leslie est une rockstar du marketing des médias sociaux ! Elle possède une grande expérience en gestion de communauté et sait comment créer une communauté dynamique et passionnée autour de notre entreprise.',
       author: {
         name: 'Vernon Cummerata',
         role: 'UI Engineer',
@@ -75,7 +75,7 @@ const testimonials = [
   [
     {
       content:
-        'I couldn’t believe how fast Mira moved in Figma compared to my own workflow. I’m designing icons more accurately in half the time with the shortcuts I learned from her videos.',
+        'Je voulais vous parler de Leslie. J’ai fait appel à ces services pour une mission très précise sur la partie communication sur les réseaux sociaux : sur Instagram. Toute l’équipe a apprécié les compétences de Leslie, d’une façon pragmatique et concrète. Deuxièmement, son niveau de créativité, de réactivité et de bonne humeur.',
       author: {
         name: 'Steven Hackett',
         role: 'Bootcamp Instructor',
@@ -84,7 +84,7 @@ const testimonials = [
     },
     {
       content:
-        'I never thought I would enjoy designing icons but using the ideas in this book, it’s become a great way for me to relax while still being creative.',
+        'Je confirme à 100% le gain de temps et de tranquillité que j’ai eu grâce à ton travail. C’est devenu indispensable pour moi ! Et mes clientes voient totalement la différence, sans regret d’avoir sauté le pas d’engager une CM !',
       author: {
         name: 'Carla Schoen',
         role: 'Startup Founder',
@@ -93,7 +93,7 @@ const testimonials = [
     },
     {
       content:
-        'All I can say is wow — this is easily the best icon design resource I’ve ever encountered.',
+        'Cela fait 1 an que nous collaborons ensemble et je dois dire que le professionnalisme, le soutien, ou  la créativité de Leslie m’ont permis de franchir un réel cap dans ma carrière professionnelle ! Un grand merci et ce n’est que le début d’une longue collaboration.',
       author: {
         name: 'Leah Kiehn',
         role: 'Creative Director',

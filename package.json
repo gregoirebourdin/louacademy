@@ -10,6 +10,7 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
+    "@calcom/embed-react": "^1.0.10",
     "@headlessui/react": "^1.7.13",
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
