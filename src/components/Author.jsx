@@ -32,17 +32,17 @@ export default function Author() {
                 <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
                   <span className="block text-blue-600">Leslie Bussat –</span> Fondatrice de la <br /> Lou Academy.
                 </p>
-                <p className="mt-4 text-lg tracking-tight text-slate-700">Je trouve mon épanouissement aux côtés de ceux et celles qui ont décidé de booster leur confiance en soi, en se lancant dans la grande aventure du Community Management. J'ai travaillé avec des dizaines d’entrepreneurs générant déjà 7 chiffres à l’année, afin de développer leurs réseaux sociaux et leurs stratégies. Le hasard n’a pas eu sa place dans ma réussite.
+                <p className="mt-4 text-lg tracking-tight text-slate-700">
+                  On pourrait penser que c’est de la chance, du hasard, une réussite toute tracée. <br />
+                  Mais tu ne vois pas la partie de l’iceberg caché …
 
-                  <p className="mt-4">
-                    J’ai accumulé un job de serveuse pendant 6 mois au lancement de mon activité de CM, j’investis dans un premier accompagnement et je mets toute mon épargne dedans. Je suis la plus nulle en vente et pourtant je continue, je teste et je recommence sans relâche. Mon objectif est de rentrer dans la précieuse sphère des grands entrepreneurs du marché. J’apprends à vendre et à me vendre. La machine est lancée. Je passe de 1200€ de à 5000€ de CA mensuel, en quelques mois et réalise mon grand projet de créer une Académie de CM.
+                  <p className="mt-4">Les réseaux sociaux nous laissent la liberté de montrer ce que l’on veut et non pas ce qui est vrai. Je m’efforce à travers mes contenus et mes accompagnements d’être la plus authentique et la plus transparente possible. C’est mon moteur.</p>
+                  <p className="mt-4">Là où on pourrait te vendre de la poudre, et des rêves je vais te dire qu’il faut travailler dur, plus dur que les autres pour se démarquer. Faire partie d’une communauté de CM passionnés, avec les outils indispensables te permettront de trouver la détermination et l’audace de réussir</p>
+                  <p className="mt-4">Au lancement de mon activité de CM, je cumule un job de serveuse en boîte de nuit. La semaine je développe mon business, et le week-end je repars pour mon second travail. Le peu de trésorerie que j’ai me permettra d’investir dans mon tout premier accompagnement. Mon objectif est de rentrer dans la précieuse sphère des grands entrepreneurs. Il faut que j’apprenne à vendre et à me vendre.</p>
+                  <p className="mt-4">J’apprends, je teste et je rencontre l’échec, je suis la plus nulle en vente dans mon accompagnement, mais je continue. La machine est lancée. Je passe de 1200€ de à 5000€ de bénéfice net mensuel. En quelques mois je réalise mon grand projet de créer la première Académie de CM, qui apprend des techniques de ventes.</p>
+                  <p className="mt-4">Aujourd’hui, je suis devenue une cheffe d’entreprise accomplie. Je travaille avec des entrepreneurs générant 7 chiffres à l’année, et j'enseigne mon savoir à celles et ceux qui souhaitent connaître les nombreuses facettes du Community Management et vivre aisément de cette activité. J'ai compris très vite que pour sortir du lot, il fallait monter en compétences. Mais aussi apprendre à vendre des prestations à la hauteur de mon travail.
                   </p>
-                  <p className="mt-4">
-                    Aujourd’hui, je suis une cheffe d’entreprise accomplie et j'enseigne mon savoir-faire et mon savoir être depuis 2 ans . J'ai travaillé avec des entrepreneurs de tous horizons et j'ai amélioré mes compétences tout en apprenant à vendre des prestations à la hauteur de mon travail.
-                  </p>
-                  <p className="mt-4">
-                    Alors j’ai décidé de tout regroupé dans un accompagnement 3.0, pour donner la chance à tous de Devenir des CM accomplis et heureux.
-                  </p>
+                  <p className="mt-4">De ce constat, est née La Lou Academy 3.0. Un accompagnement unique, audacieux, et ultra-personnalisé pour Devenir Community Manager et atteindre ses premiers 5000 € de bénéfices mensuels sur le long terme.</p>
                 </p>
                 <p className="mt-8">
 
