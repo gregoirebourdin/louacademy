@@ -14,7 +14,7 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Un accompagnement basé sur 3 grands piliers de réussite. Les mêmes que j’ai appliqués pour atteindre mes premiers 5000€ de CA mensuel.
+          Un accompagnement basé sur 3 grands piliers de réussite. Les mêmes que j’ai appliqué pour atteindre mes premiers 5000€ de CA mensuel.
         </p>
 
         <p className="mt-4">Si tu penses qu’une simple connexion internet et un téléphone suffisent pour être un.e bon.ne Community Manager, alors il est inutile de lire la suite de cette page.</p>

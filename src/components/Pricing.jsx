@@ -28,7 +28,7 @@ const tiers = [
     id: 'tier-enterprise',
     href: 'cal',
     price:  '2 997 €' ,
-    description: 'Pour les entreprises qui souhaitent former leurs équipes à la gestion de communautés.',
+    description: 'Pour les entreprises qui souhaitent former leurs équipes à la gestion de communauté.',
     features: ['Deux accès illimités à la formation', 'Accès aux ressources', 'Coaching collectif de 6 mois', "Accès à la communauté", "Coaching individuel (3 sessions)"],
     mostPopular: false,
   },

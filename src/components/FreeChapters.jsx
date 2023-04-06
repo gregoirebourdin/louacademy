@@ -28,7 +28,7 @@ export function FreeChapters() {
                 color="white"
                 className="mt-12 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none "
             >
-              Je prend rendez-vous maintenant !
+              Je prends rendez-vous maintenant !
             </Button>
           </div>
 
