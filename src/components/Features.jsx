@@ -59,11 +59,19 @@ export default function Features() {
                                     alt="Photo by @corbo_illu on Instagram"
                                     className=" md:rounded-tl-xl sm:rounded-xl bg-slate-800 ring-1 ring-white/10"
                                 />
+
+
+
                             </div>
                             <div
                                 className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"
                                 aria-hidden="true"
                             />
+
+                        </div>
+                        {/*Ajoute un texte sous la photo*/}
+                        <div className="mt-6 text-center text-sm font-medium text-slate-600">
+                            <p>Photo by @corbo_illu on Instagram</p>
                         </div>
                     </div>
                 </div>
