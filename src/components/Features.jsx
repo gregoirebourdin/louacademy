@@ -4,17 +4,17 @@ const features = [
     {
         name: 'Les compétences',
         description:
-            'servent à qualifier son audience, et t’imposer parmi les meilleur.es CM sur le marché.',
+            'servent à qualifier son audience, et t’imposer parmi les meilleures CM sur le marché.',
         icon: AcademicCapIcon,
     },
     {
         name: 'La vente',
-        description: "c’est la compétence qui manque à la plupart des CM aujourd’hui. Et il est crucial de leur transmettre ce domaine d'expertise.\n",
+        description: "c’est la compétence qui te permettra de closer tes futurs clients et t'imposer comme une experte de le domaine du Community Management.\n",
         icon: ChartBarIcon,
     },
     {
-        name: 'Créer une organisation efficiente. ',
-        description: 'Prépare toi à gérer plusieurs dossiers, car ton activité va prendre un tournant ...',
+        name: 'Automatiser',
+        description: 'les tâches chronophages, pour arrêter de vendre ton temps contre de l’argent',
         icon: CalendarIcon,
     },
 ]
@@ -27,11 +27,16 @@ export default function Features() {
                     <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4">
                         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
 
-                            <p className="mt-2 font-display text-4xl font-bold tracking-tight text-slate-900">Une académie évolutive, mais pourquoi ?</p>
-                            <p className="mt-6 text-lg leading-8 text-slate-600">
+                            <p className="mt-2 font-display text-4xl font-bold tracking-tight text-slate-900">Une académie évolutive et un parcours apprenant mais pourquoi ?</p>
+                         {/*   <p className="mt-6 text-lg leading-8 text-slate-600">
                                 Le point commun de toutes mes réussites et de mon ascension c’est tout simplement : mon réseau.
 
                                 Les rencontres, et les partages sont la conjoncture excellente pour performer, et s’imposer comme expert.e.
+
+                                </p>*/}
+                               <p className="mt-6 text-lg leading-8 text-slate-600">
+                                Adieu les formations qui vous promettent la liberté et les voyages.
+                                La Lou Academy 3.0 vous permet de vous former à votre rythme, de tester vos acquis lors du bilan de compétences et être missionné sur un projet réel, rémunéré.
 
                                 </p>
                             <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-slate-600 lg:max-w-none">
@@ -59,8 +64,6 @@ export default function Features() {
                                     alt="Photo by @corbo_illu on Instagram"
                                     className=" md:rounded-tl-xl sm:rounded-xl bg-slate-800 ring-1 ring-white/10"
                                 />
-
-
 
                             </div>
                             <div

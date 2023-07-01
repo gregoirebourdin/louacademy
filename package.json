@@ -13,6 +13,7 @@
     "@calcom/embed-react": "^1.0.10",
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.17",
+    "@vercel/analytics": "^1.0.1",
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
     "focus-visible": "^5.2.0",

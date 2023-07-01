@@ -54,7 +54,7 @@ export function Pricing() {
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
           Pas besoin de se ruiner pour exceller
         </p>
-        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">La formation Lou Academy est disponible en trois packages différents afin que tu puisses choisir celui qui te convient le mieux.</p>
+        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">La Lou Academy est disponible en trois packages différents afin que tu puisses choisir celui qui te convient le mieux.</p>
       </Container>
       <div className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

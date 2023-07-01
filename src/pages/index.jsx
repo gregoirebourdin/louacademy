@@ -25,7 +25,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Un accompagnement innovant qui permet d’augmenter tes compétences pour devenir un.e CM excellent.e, trouver tes premiers clients sur le long-terme, et construire une organisation stratégique efficiente !"
+          content="Un accompagnement innovant qui permet d’augmenter tes compétences pour devenir un.e CM excellente, trouver tes premiers clients sur le long-terme, et construire une organisation stratégique efficiente !"
         />
       </Head>
       <Hero />
@@ -56,7 +56,7 @@ export default function Home() {
         }}
       >
         <p>
-            "Choisir la formation Lou Academy 3.0 pour devenir Community Manager a été la meilleure décision. Son accompagnement personnalisé de 6 mois m'a aidé à atteindre mon objectif de gagner 5000€/mois. Professionnelle, passionnée et humaine, je recommande vivement sa formation."
+            "Choisir La Lou Academy 3.0 pour devenir Community Manager a été la meilleure décision. Son accompagnement personnalisé de 6 mois m'a aidé à atteindre mon objectif de gagner 5000€/mois. Professionnelle, passionnée et humaine, je recommande vivement sa formation."
         </p>
       </Testimonial>
       <Resources />

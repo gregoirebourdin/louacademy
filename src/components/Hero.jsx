@@ -51,7 +51,8 @@ export function Hero() {
             <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
               Lou Academy 3.0
             </h1>
-            <p className="mt-4 text-3xl text-slate-600">Un accompagnement innovant qui permet d’augmenter tes compétences pour devenir un.e CM excellent.e, trouver tes premiers clients sur le long-terme, et construire une organisation stratégique efficiente !</p>
+            {/*<p className="mt-4 text-3xl text-slate-600">Un accompagnement innovant qui permet d’augmenter tes compétences pour devenir une CM excellente, trouver tes premiers clients sur le long-terme, et construire une organisation stratégique efficiente !</p>*/}
+            <p className="mt-4 text-3xl text-slate-600">La première académie ouverte à toutes celles qui souhaitent de devenir Community Manager avec un parcours apprenant.</p>
             <div className="mt-8 flex gap-4">
               <Button href={"cal"} color="blue">
                 Rejoindre l'académie

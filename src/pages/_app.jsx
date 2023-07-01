@@ -2,7 +2,7 @@ import 'focus-visible'
 import '@/styles/tailwind.css'
 import Cal from "@/components/Cal";
 import {useEffect, useState} from "react";
-
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }) {
     const [showBanner, setShowBanner] = useState(false);
@@ -46,6 +46,7 @@ export default function App({ Component, pageProps }) {
                     <Cal />
                 </div>)}
         <Component {...pageProps} />
+        <Analytics />
 
     </>
   )

@@ -16,14 +16,14 @@ const videos = [
     runtime: { minutes: 16, seconds: 54 },
   },
   {
-    title: "Apprendre Cap Cut",
+    title: "Apprendre à monter et créer",
     description:
       'Familiarise-toi avec l\'application Cap Cut et crée tes premiers Reels viraux sur Instagram.',
     image: capcut,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
-    title: "Apprendre gestion d'Agenda",
+    title: "Gère ta productivité",
     description:
       'Créer un agenda super productif, pour gérer la délivrabilité de tes clients et aussi le développement de ton activité.',
     image: agenda,
@@ -69,7 +69,7 @@ export function Screencasts() {
           Vidéos étape par étape de haute qualité pour gagner en compétences et en productivité.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          De la conception de vos premiers Reels viraux à la création d'un agenda ultra productif, passer d’un simple CM débutant à un professionnel du secteur de la communication.
+          De la conception de vos premiers Reels viraux à l'automatisation des tâches chronophages, passer d’une simple CM débutante à une experte du secteur de la communication.
         </p>
       </Container>
       <Container size="lg" className="mt-16">

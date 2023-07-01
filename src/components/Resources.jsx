@@ -74,7 +74,7 @@ export function Resources() {
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">Des outils sur-mesure pour les CM.</p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Dans cet accompagnement, tu trouveras aussi tout les outils/documents nécéssaires pour devenir excellent.e dans le domaine du Community Management et progresser encore plus vite.
+          Dans cet accompagnement, tu trouveras aussi tout les outils/documents nécessaires pour devenir excellente dans le domaine du Community Management et progresser encore plus vite.
         </p>
       </Container>
       <Container size="lg" className="mt-16">

@@ -24,7 +24,7 @@ const tableOfContents = {
     'Instagram et ses chiffres': "10:09",
     'Le Copywriting': "08:55",
   },
-  'Module 2 : Trouver tes premiers clients long terme': {
+  'Module 2 : Apprends à vendre tes prestations': {
     'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin': "02:44",
     'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin (Partie 1)': "20:05",
     'Mes secrets pour réussir ma prospection froide sur Instagram, Facebook et Linkedin (Partie 2)': "20:19",
@@ -34,9 +34,9 @@ const tableOfContents = {
     'Le script de vente pour les CM': "26:27",
 
   },
-  'Module 3 : Créer une organisation stratégique': {
-    'Créer un agenda productif pour devenir excellent.e (Partie 1)': "04:59",
-    'Créer un agenda productif pour devenir excellent.e (Partie 2)': "04:59",
+  "Module 3 : Automatise ta production grâce à l'IA": {
+    'Créer un agenda productif pour devenir excellente (Partie 1)': "04:59",
+    'Créer un agenda productif pour devenir excellente (Partie 2)': "04:59",
     'Améliorer son état d’esprit et construire de nouvelles habitudes': "06:58",
     'La méthode des Sherpas': "09:41",
 
@@ -62,7 +62,7 @@ export function TableOfContents() {
           Jette un œil à tout le contenu de la formation. Tout ce que tu dois savoir est à l’intérieur.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          La Formation Lou Academy 3.0 est composé de 8 heures de vidéos, du contenu premium, des process exclusivement créé pour les CM, l’intervention d’un photographe international, des screencasts, l'accès à une communauté privée et un accompagnement personnalisé.
+          La Lou Academy 3.0 est composé de contenu premium, des process et des outils exclusivement créés pour les CM, l’intervention d’un photographe international, des screencasts, l'accès à une communauté privée et un accompagnement personnalisé.
         </p>
         <Expandable>
           {({ isExpanded }) => (
